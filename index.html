@@ -1,18 +1,72 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="simple-style.css">
+  <title>Welcome Guest!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 </head>
 
 <body>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+<div class="menu">
+    <a class="selected" href="#home">Start page</a>
+    <a href="#blog">Blog</a>
+    <a href="#projects">Projects</a>
+    <a href="#cv">CV</a>
+</div>
+
+
+
+
+<div class="content">
+
+  <h1>This is my homepage!</h1>
+  <p>Hi, I'm Niko! I'm currently studying Computer Science at university of Helsinki.
+    This page is just a test at the moment, but I will propably add more content here
+    sometime soon...</p>
+  <p>One point of this page is that I am trying to learn CSS and try to see how
+    much I can do by just using styles in css and without any readymade tools etc.
+    (Twitter Bootstrap etc.), so the site might be a little ugly, sorry about that :(
+  </p>
+
+  <p>In case you are wondering what types of projects I have done so far here
+    are some:
+    <ul>
+      <li><a href="https://github.com/nikomn/tiralabra-pakkausalgoritmit">Data compression program</a></li>
+        <div>Program designed to compress text files using huffman coding and/or lzw compression.
+          Written in Java</div>
+      <li><a href="https://github.com/nikomn/ot-harjoitustyo">Studytime Tracker</a>
+        <div>Application designed for keeping track of how much time is used
+          in different university courses. Written in java.</div>
+      <li><a href="https://github.com/nikomn/itemindex">Item index</a>
+        <div>Application designed for minimalists interested in keeping track of
+          what and how many items they own. Written in Python using Flask. The application
+          can be tested <a href="https://itemindex-demo.herokuapp.com/">here</a>
+            (will propably shut it down sometime in the future as I can only have
+            limited amounts of apps in heroku at the same time...)</div>
+      <li><a href="https://github.com/nikomn/oraculum">Oraculum</a></li>
+        <div>Very simple vanilla javascript project of an oracle who can answer any question
+          (well sort of...), it can also be tested in action
+          <a href="https://nikomn.github.io/oraculum/">here</a></div>
+      <li><a href="https://github.com/nikomn/taikatemppu">Taikatemppu</a></li>
+        <div>Very simple vanilla javascript project demonstrating
+          mathematical card trick. Can be tested in action
+          <a href="https://nikomn.github.io/taikatemppu/">here</a></div>
+      <li><a href="https://github.com/nikomn/wepa-projekti">Cv And Employee Finder Application</a>
+        <div>Cv And Employee Finder Application. Written in Java using Spring Boot
+          . The application can be tested <a href="https://cryptic-crag-69740.herokuapp.com/">here</a>
+            (will propably shut it down sometime in the future as I can only have
+            limited amounts of apps in heroku at the same time...)</div>
+    </ul>
+
+  </p>
+
+</div>
+
 
 </body>
+
 </html>
