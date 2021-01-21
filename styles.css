@@ -1,17 +1,40 @@
-* {
-  margin:0px;
-  padding:0px;
+.menu {
+  position: fixed;
+  background-color: black;
+  overflow: hidden;
+  width:100%;
+  top: 0px;
+  left:0px;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+  flex-direction: column;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.menu a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.menu a.selected {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  padding: 4em 1em;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  max-width: 60em;
+  font-family: 'Helvetica', 'Ariel', sans-serif;
+  font-size: 150%;
 }
