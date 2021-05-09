@@ -2,9 +2,10 @@ body{
   margin:0px;
 }
 
-.page-padding {
+
+/* .page-padding {
   line-height: 550px;
-}
+} */
 
 .menu {
   position: fixed;
